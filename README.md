@@ -735,6 +735,7 @@ This is a prototype.Please feel free to:
 - Fork and experiment
 - Share your feedback 
 
+ Also if you like my vision, you have a technical skills and want to become part of this project, please contact me through email on bottom. I am currently looking for a cofounder that would help me with this project.
 
 ## 📄 License
 
