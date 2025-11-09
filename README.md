@@ -34,6 +34,26 @@ Nova: "On my way to the police car now!"
 
 Meanwhile, in Unity, the AI character executes the movement using NavMesh pathfinding.
 
+## 📷 Screenshots
+
+- Unity Console (end-to-end command execution)
+  
+  Shows the full pipeline working: perception sent, AI response received, behavior routed, and completion after a move_to command.
+  
+  ![Unity Console](Unity_console.png)
+
+- Terminal Chat (context-aware conversation)
+  
+  Chat via `cli_chat.py` . Demonstrates spatial awareness and issuing movement requests.
+  
+  ![Terminal Chat](Chat_screenshot.png)
+
+- In-Game View (AI navigating the world)
+  
+  Unity scene with the AI character navigating using NavMesh toward a target object after a chat instruction.
+  
+  ![In-Game View](Game%20screenshot.png)
+
 ## 🏗️ Architecture
 
 ```

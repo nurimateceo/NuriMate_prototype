@@ -17,7 +17,9 @@ load_dotenv()
 last_perception_data = {"text": "", "timestamp": 0}
 
 # Initialize OpenAI client
-client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+# Prefer provider-agnostic env var, fallback to legacy name for compatibility
+_API_KEY = os.getenv("LLM_API_KEY") or os.getenv("OPENAI_API_KEY")
+client = OpenAI(api_key=_API_KEY)
 
 # Initialize Flask and WebSocket
 app = Flask(__name__)
