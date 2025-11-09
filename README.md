@@ -1,4 +1,4 @@
-# NuriMate v0,1 - AI Teammate for Video Games
+# NuriMate v0.1 - AI Teammate for Video Games
 
 > **The most advanced synthetic relationship - an AI friend that plays video games with you**
 
@@ -34,25 +34,19 @@ Nova: "On my way to the police car now!"
 
 Meanwhile, in Unity, the AI character executes the movement using NavMesh pathfinding.
 
-## 📷 Screenshots
+## 📸 Screenshots
 
-- Unity Console (end-to-end command execution)
-  
-  Shows the full pipeline working: perception sent, AI response received, behavior routed, and completion after a move_to command.
-  
-  ![Unity Console](Unity_console.png)
+- Unity Console (behavior execution logs)
 
-- Terminal Chat (context-aware conversation)
-  
-  Chat via `cli_chat.py` . Demonstrates spatial awareness and issuing movement requests.
-  
-  ![Terminal Chat](Chat_screenshot.png)
+![Unity Console](Unity_console.png)
 
-- In-Game View (AI navigating the world)
-  
-  Unity scene with the AI character navigating using NavMesh toward a target object after a chat instruction.
-  
-  ![In-Game View](Game%20screenshot.png)
+- Terminal Chat (real-time conversation with spatial context)
+
+![Terminal Chat](Chat_screenshot.png)
+
+- In-Game View (AI teammate in the world)
+
+![Game Screenshot](Game%20screenshot.png)
 
 ## 🏗️ Architecture
 
@@ -735,19 +729,16 @@ This is **v0.1 - a working prototype**, not a complete product. Here's the real 
 
 ## 🤝 Contributing
 
-This is a research prototype for YC application. Not accepting contributions yet, but feel free to:
+This is a prototype.Please feel free to:
 - Open issues for bugs
 - Share ideas in discussions
 - Fork and experiment
+- Share your feedback 
+
 
 ## 📄 License
 
 MIT License - see LICENSE file
-
-## 🎓 Built For
-
-- **YC Co-founder Matching** - Looking for technical co-founder
-- **Startup** - Making synthetic relationships indistinguishable from real humans
 
 ## 📧 Contact
 
